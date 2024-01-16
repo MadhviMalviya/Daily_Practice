@@ -1,0 +1,77 @@
+/* CSS styles */
+
+/* Attribute selector */
+
+[type='text']{
+  background-color:red;
+  border:2px solid green;
+}
+
+/* pseudo-class selector */
+
+button:hover{
+  background: yellow;
+  color: black;
+}
+
+/* pseudo-elements selector */
+
+p::first-line{
+  color:olive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* [class*="heading"]:hover{
+  color:red;
+} */
+
+
+
+
+
+
+
+
+body{
+  font-size: xx-large;
+display: flex;
+align-items: center;
+text-align: center;
+justify-content: center;
+}
+
+
+
+/* input{
+
+  font-size: large;
+  font-weight: bold;
+  width: 14rem;
+  height: 4rem;
+  border:none;
+  border-radius:10px;
+} */
+button{
+  width: 10rem;
+  height: 4rem;
+  cursor: pointer;
+  background-color:brown;
+  color:white;
+  font-size: large;
+  border: none;
+  border-radius: 8px;
+}

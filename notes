@@ -1,0 +1,25 @@
+Selecors: 
+
+Types: there are 5 types of selectors in css:
+
+1.Simple Selectors : class,id,tagname 
+
+2.Combinator Selectors :
+
+i.Descendant  (space)     
+ii.sibling    (~)
+iii.adjacent  (+)
+iv.child      (>) 
+
+3.Attribute Selectors  []
+
+4..Pseudo-class Selectors  (:) 
+
+5.Pseudo-elements Selectors  (::) 
+
+
+
+
+
+
+Univarsal selector *

@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.logo img {
+    height: 5rem;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.conatiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+input {
+    padding:5px;
+   
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    background-color: whitesmoke;
+    border-radius: 3rem;
+    width: 40rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;align-items: center;
+    border: none;
+}
+
+
+.btns {
+
+    display: flex;
+
+    justify-content: space-around;
+
+}
+
+.btn2 {
+    font-size: large;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    height: 3rem;
+    max-width: max-content;
+
+}
+
+.btn1 {
+    font-size: large;
+    background: none;
+    border: none;
+
+}
